@@ -1,0 +1,350 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		991591FE21B4BB2B00DCB00A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 991591FD21B4BB2B00DCB00A /* AppDelegate.m */; };
+		9915920121B4BB2B00DCB00A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9915920021B4BB2B00DCB00A /* ViewController.m */; };
+		9915920421B4BB2B00DCB00A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9915920221B4BB2B00DCB00A /* Main.storyboard */; };
+		9915920621B4BB2D00DCB00A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9915920521B4BB2D00DCB00A /* Assets.xcassets */; };
+		9915920921B4BB2D00DCB00A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9915920721B4BB2D00DCB00A /* LaunchScreen.storyboard */; };
+		9915920C21B4BB2D00DCB00A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9915920B21B4BB2D00DCB00A /* main.m */; };
+		9915921421B4C2C400DCB00A /* PhoneContactsManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9915921321B4C2C400DCB00A /* PhoneContactsManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		991591F921B4BB2B00DCB00A /* LoanOnlinePreApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoanOnlinePreApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		991591FC21B4BB2B00DCB00A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		991591FD21B4BB2B00DCB00A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		991591FF21B4BB2B00DCB00A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9915920021B4BB2B00DCB00A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9915920321B4BB2B00DCB00A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9915920521B4BB2D00DCB00A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9915920821B4BB2D00DCB00A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9915920A21B4BB2D00DCB00A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9915920B21B4BB2D00DCB00A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9915921221B4C2C400DCB00A /* PhoneContactsManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PhoneContactsManager.h; sourceTree = "<group>"; };
+		9915921321B4C2C400DCB00A /* PhoneContactsManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhoneContactsManager.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		991591F621B4BB2B00DCB00A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		991591F021B4BB2B00DCB00A = {
+			isa = PBXGroup;
+			children = (
+				991591FB21B4BB2B00DCB00A /* LoanOnlinePreApp */,
+				991591FA21B4BB2B00DCB00A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		991591FA21B4BB2B00DCB00A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				991591F921B4BB2B00DCB00A /* LoanOnlinePreApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		991591FB21B4BB2B00DCB00A /* LoanOnlinePreApp */ = {
+			isa = PBXGroup;
+			children = (
+				991591FC21B4BB2B00DCB00A /* AppDelegate.h */,
+				991591FD21B4BB2B00DCB00A /* AppDelegate.m */,
+				991591FF21B4BB2B00DCB00A /* ViewController.h */,
+				9915920021B4BB2B00DCB00A /* ViewController.m */,
+				9915921221B4C2C400DCB00A /* PhoneContactsManager.h */,
+				9915921321B4C2C400DCB00A /* PhoneContactsManager.m */,
+				9915920221B4BB2B00DCB00A /* Main.storyboard */,
+				9915920521B4BB2D00DCB00A /* Assets.xcassets */,
+				9915920721B4BB2D00DCB00A /* LaunchScreen.storyboard */,
+				9915920A21B4BB2D00DCB00A /* Info.plist */,
+				9915920B21B4BB2D00DCB00A /* main.m */,
+			);
+			path = LoanOnlinePreApp;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		991591F821B4BB2B00DCB00A /* LoanOnlinePreApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9915920F21B4BB2D00DCB00A /* Build configuration list for PBXNativeTarget "LoanOnlinePreApp" */;
+			buildPhases = (
+				991591F521B4BB2B00DCB00A /* Sources */,
+				991591F621B4BB2B00DCB00A /* Frameworks */,
+				991591F721B4BB2B00DCB00A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LoanOnlinePreApp;
+			productName = LoanOnlinePreApp;
+			productReference = 991591F921B4BB2B00DCB00A /* LoanOnlinePreApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		991591F121B4BB2B00DCB00A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "znkj-iMac-hefs";
+				TargetAttributes = {
+					991591F821B4BB2B00DCB00A = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 991591F421B4BB2B00DCB00A /* Build configuration list for PBXProject "LoanOnlinePreApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 991591F021B4BB2B00DCB00A;
+			productRefGroup = 991591FA21B4BB2B00DCB00A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				991591F821B4BB2B00DCB00A /* LoanOnlinePreApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		991591F721B4BB2B00DCB00A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9915920921B4BB2D00DCB00A /* LaunchScreen.storyboard in Resources */,
+				9915920621B4BB2D00DCB00A /* Assets.xcassets in Resources */,
+				9915920421B4BB2B00DCB00A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		991591F521B4BB2B00DCB00A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9915920121B4BB2B00DCB00A /* ViewController.m in Sources */,
+				9915921421B4C2C400DCB00A /* PhoneContactsManager.m in Sources */,
+				9915920C21B4BB2D00DCB00A /* main.m in Sources */,
+				991591FE21B4BB2B00DCB00A /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9915920221B4BB2B00DCB00A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9915920321B4BB2B00DCB00A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9915920721B4BB2D00DCB00A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9915920821B4BB2D00DCB00A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9915920D21B4BB2D00DCB00A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9915920E21B4BB2D00DCB00A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9915921021B4BB2D00DCB00A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DP9EWUSRWN;
+				INFOPLIST_FILE = LoanOnlinePreApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = hefs.LoanOnlinePreApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		9915921121B4BB2D00DCB00A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DP9EWUSRWN;
+				INFOPLIST_FILE = LoanOnlinePreApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = hefs.LoanOnlinePreApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		991591F421B4BB2B00DCB00A /* Build configuration list for PBXProject "LoanOnlinePreApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9915920D21B4BB2D00DCB00A /* Debug */,
+				9915920E21B4BB2D00DCB00A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9915920F21B4BB2D00DCB00A /* Build configuration list for PBXNativeTarget "LoanOnlinePreApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9915921021B4BB2D00DCB00A /* Debug */,
+				9915921121B4BB2D00DCB00A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 991591F121B4BB2B00DCB00A /* Project object */;
+}
