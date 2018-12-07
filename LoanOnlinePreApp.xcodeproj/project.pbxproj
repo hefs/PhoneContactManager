@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		990A5C2B21BA0C7500B0CA91 /* CycleMessageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 990A5C2A21BA0C7500B0CA91 /* CycleMessageView.m */; };
 		991591FE21B4BB2B00DCB00A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 991591FD21B4BB2B00DCB00A /* AppDelegate.m */; };
 		9915920121B4BB2B00DCB00A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9915920021B4BB2B00DCB00A /* ViewController.m */; };
 		9915920421B4BB2B00DCB00A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9915920221B4BB2B00DCB00A /* Main.storyboard */; };
@@ -17,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		990A5C2921BA0C7500B0CA91 /* CycleMessageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CycleMessageView.h; sourceTree = "<group>"; };
+		990A5C2A21BA0C7500B0CA91 /* CycleMessageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CycleMessageView.m; sourceTree = "<group>"; };
 		991591F921B4BB2B00DCB00A /* LoanOnlinePreApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoanOnlinePreApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		991591FC21B4BB2B00DCB00A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		991591FD21B4BB2B00DCB00A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -65,6 +68,8 @@
 				991591FD21B4BB2B00DCB00A /* AppDelegate.m */,
 				991591FF21B4BB2B00DCB00A /* ViewController.h */,
 				9915920021B4BB2B00DCB00A /* ViewController.m */,
+				990A5C2921BA0C7500B0CA91 /* CycleMessageView.h */,
+				990A5C2A21BA0C7500B0CA91 /* CycleMessageView.m */,
 				9915921221B4C2C400DCB00A /* PhoneContactsManager.h */,
 				9915921321B4C2C400DCB00A /* PhoneContactsManager.m */,
 				9915920221B4BB2B00DCB00A /* Main.storyboard */,
@@ -148,6 +153,7 @@
 			files = (
 				9915920121B4BB2B00DCB00A /* ViewController.m in Sources */,
 				9915921421B4C2C400DCB00A /* PhoneContactsManager.m in Sources */,
+				990A5C2B21BA0C7500B0CA91 /* CycleMessageView.m in Sources */,
 				9915920C21B4BB2D00DCB00A /* main.m in Sources */,
 				991591FE21B4BB2B00DCB00A /* AppDelegate.m in Sources */,
 			);
